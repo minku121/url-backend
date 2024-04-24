@@ -15,10 +15,7 @@ app.use(cors({
 
 async function connectToDB() {
   try {
-    await mongoose.connect("mongodb+srv://potoxa8698:sisg7pj167zSLyj1@cluster0.sqvwn7n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
+    await mongoose.connect("mongodb+srv://potoxa8698:6FEoEVXUmLZzflDn@cluster0.sqvwn7n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
     console.log("Connected to MongoDB");
   } catch (error) {
     console.error("Error connecting to MongoDB:", error);
