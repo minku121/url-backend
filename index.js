@@ -34,7 +34,7 @@ const urlSchema = new mongoose.Schema({
   pageViews: { type: Number, default: 0 }
 });
 
-const UrlMapping = mongoose.model('link', urlSchema);
+const UrlMapping = mongoose.model('Link', urlSchema);
 
 app.post('/v1/pageview/:shortUrl', async (req, res) => {
   const { shortUrl } = req.params;
