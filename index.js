@@ -20,7 +20,7 @@ app.use(cors({
 
 async function connectToDB() {
   try {
-    await mongoose.connect("mongodb+srv://aurasoftglow:VI9mWGliGxyzU0NL@cluster0.cjgf1hp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
+    await mongoose.connect("mongodb+srv://teyavot684:cEBnbh86Z9Eg2uRn@cluster0.elqjkgg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
     console.log("Connected to MongoDB");
   } catch (error) {
     console.error("Error connecting to MongoDB:", error);
